@@ -1,0 +1,27 @@
+model-name: MappingModel
+device: cuda
+
+
+
+train:
+  epoch: 30
+  batch-size: 512
+  criterion: 
+    name: crossentropyloss
+  optimizer:
+    name: adam
+    learning-rate: 0.001
+    args:
+      betas: [0.9, 0.999]
+  lr_scheduler:
+    name: multisteplr
+    args:
+      milestones: [20]
+      gamma: 0.1
+  log-interval: 10
+
+test:
+  batch-size: 256
+
+
+  

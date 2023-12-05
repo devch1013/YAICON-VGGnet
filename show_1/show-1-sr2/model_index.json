@@ -1,0 +1,25 @@
+{
+  "_class_name": "VideoToVideoSDPipeline",
+  "_diffusers_version": "0.19.3",
+  "_name_or_path": "show-1-sr2",
+  "scheduler": [
+    "diffusers",
+    "DPMSolverMultistepScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "CLIPTextModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "CLIPTokenizer"
+  ],
+  "unet": [
+    "showone.models.unet_3d_condition",
+    "UNet3DConditionModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKL"
+  ]
+}

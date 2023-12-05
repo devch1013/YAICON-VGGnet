@@ -1,0 +1,25 @@
+{
+  "_class_name": "TextToVideoIFInterpPipeline",
+  "_diffusers_version": "0.19.3",
+  "_name_or_path": "show-1-interpolation",
+  "feature_extractor": [
+    "transformers",
+    "CLIPImageProcessor"
+  ],
+  "scheduler": [
+    "diffusers",
+    "DPMSolverMultistepScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "T5Tokenizer"
+  ],
+  "unet": [
+    "showone.models.unet_3d_condition",
+    "UNet3DConditionModel"
+  ]
+}

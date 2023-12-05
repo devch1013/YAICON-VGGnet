@@ -1,0 +1,31 @@
+model-name: mapping_model
+device: cuda
+
+model:
+  dummy: 12
+
+train:
+  epoch: 300
+  batch-size: 32
+  criterion: 
+    name: mseloss
+  optimizer:
+    name: adam
+    learning-rate: 0.000005
+    args:
+      betas: [0.9, 0.999]
+  lr_scheduler:
+    name: multisteplr
+    args:
+      milestones: [20]
+      gamma: 0.1
+  log-interval: 10
+
+validation:
+  batch-size: 32
+
+test:
+  batch-size: 256
+
+
+  

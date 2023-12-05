@@ -1,0 +1,13 @@
+{
+  "_class_name": "TextEmbedding",
+  "_diffusers_version": "0.19.1",
+  "_name_or_path": "show-1-base",
+  "text_encoder": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "T5Tokenizer"
+  ]
+}

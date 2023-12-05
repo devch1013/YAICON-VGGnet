@@ -31,6 +31,7 @@ python -m embedding.mapper_train
 
 ## Inference
 Change the promts to text or image path or audio path.
+You can download our trained weight in models folder using this link: https://huggingface.co/devch1013/VGGnet/resolve/main/VGGnet_final_weight.pth?download=true
 ```
 python -m run_inference
 ```

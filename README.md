@@ -1,5 +1,4 @@
-![main](https://github.com/devch1013/YAICON-VGGnet/assets/92439610/0ce35aae-3e19-4a7c-9ea2-0fd8434a6edb)
-
+<img src="https://github.com/devch1013/YAICON-VGGnet/assets/92439610/0ce35aae-3e19-4a7c-9ea2-0fd8434a6edb" width = "900" >
 
 # VGGnet: Video Graphic Generation network
 
@@ -17,7 +16,7 @@
 </br>
 </br>
 
-- This is an attempt to combine the video generation model with ImageBind to create a pipeline that can generate video even with multimodal input.
+**This is an attempt to combine the video generation model with ImageBind to create a pipeline that can generate video even with multimodal input.**
 
 ## 1. Dataset
 We prepare text-text, image-text, audio-text dataset to generate embedding pair of ImageBind and T5 embedding model.
